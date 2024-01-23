@@ -1,6 +1,6 @@
 const Contact = function () {
     return `
-      <h3>Liên hệ</h3>
+      <h3>Contact</h3>
     `
 }
 
