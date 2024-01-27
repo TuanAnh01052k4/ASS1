@@ -5,14 +5,14 @@ const ProductDetail = function (book) {
       class="flex flex-col gap-[1rem] border-solid border-[#f2f2f2] border-t-0 border-l-0 border-b-0"
     >
       <span>
-        <img class="w-[27.5rem] h-[27.5rem]" src="book.svg" alt="" />
+        <img class="w-[27.5rem] h-[27.5rem]" src="${book.images[0].base_url}" alt="" />
       </span>
       <span class="flex flex-row gap-[0.81rem]">
-        <img class="h-[4rem] w-[4rem]" src="book.svg" alt="" />
-        <img class="h-[4rem] w-[4rem]" src="book.svg" alt="" />
-        <img class="h-[4rem] w-[4rem]" src="book.svg" alt="" />
-        <img class="h-[4rem] w-[4rem]" src="book.svg" alt="" />
-        <img class="h-[4rem] w-[4rem]" src="book.svg" alt="" />
+        <img class="h-[4rem] w-[4rem]" src="${book.images[0].base_url}" alt="" />
+        <img class="h-[4rem] w-[4rem]" src="${book.images[0].base_url}" alt="" />
+        <img class="h-[4rem] w-[4rem]" src="${book.images[0].base_url}" alt="" />
+        <img class="h-[4rem] w-[4rem]" src="${book.images[0].base_url}" alt="" />
+        <img class="h-[4rem] w-[4rem]" src="${book.images[0].base_url}" alt="" />
       </span>
     </div>
     <div class="flex flex-col gap-[1rem]">

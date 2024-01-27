@@ -12,9 +12,15 @@ router.on('/', function () {
   render("#app", () => UserLayout(HomePage))
 });
 
-router.on('/product', function () {
-  render("#app", () => UserLayout(Product_page))
+router.on('/product/:id', function ({data}) {
+  render("#app", () => Product_page(data.id))
 });
+
+// router.on('/book/:id', function ({ data }) {
+//   console.log(data.id);
+//   render("#app", () => Product(data.id))
+// })
+
 
 router.on('/contact', function () {
   render("#app", Contact)
